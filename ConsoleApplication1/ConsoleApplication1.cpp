@@ -6,6 +6,7 @@
 #include "Equation.h"
 #include <sstream>
 #include <fstream>
+
 #include <windows.h>
 
 template<typename T>
@@ -147,5 +148,6 @@ int main()
 	c.ReadSTR(strview);
 	Evaluate(c);
 	c.Free();
+
 	system("pause");
 }
