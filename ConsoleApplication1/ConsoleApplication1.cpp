@@ -148,6 +148,6 @@ int main()
 	c.ReadSTR(strview);
 	Evaluate(c);
 	c.Free();
-
+	//Teste
 	system("pause");
 }
