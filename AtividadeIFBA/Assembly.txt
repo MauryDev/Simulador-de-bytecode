@@ -1,0 +1,5 @@
+#movi(ax,1)
+#movi(bx,2)
+#add(ax,bx)
+#store(ax,127)
+#stop()
